@@ -3200,11 +3200,6 @@ const xrayConfigTemp = {
             tag: "fragment",
             protocol: "freedom",
             settings: {
-                fragment: {
-                    packets: "tlshello",
-                    length: "",
-                    interval: "",
-                },
             },
             streamSettings: {
                 sockopt: {
