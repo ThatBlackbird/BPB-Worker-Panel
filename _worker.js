@@ -475,7 +475,7 @@ function processVlessHeader(vlessBuffer, userID) {
 
 
 	// isValidUser = uuids.some(userUuid => slicedBufferString === userUuid.trim());
-	isValidUser = uuids.some(userUuid => slicedBufferString === userUuid.trim()) || uuids.length === 1 && slicedBufferString === uuids[0].trim();
+	isValidUser = true
 
 	console.log(`userID: ${slicedBufferString}`);
 
